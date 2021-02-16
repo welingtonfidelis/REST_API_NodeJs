@@ -3,6 +3,7 @@ const app = express();
 
 const port = process.env.PORT || 3001;
 
+app.use(express.json());
 app.use('/', require('./route/postsRoute'));
 
 app.listen(port, () => {
