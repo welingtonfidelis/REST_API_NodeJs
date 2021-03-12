@@ -4,7 +4,7 @@ const db = pgp({
   password: 'root',
   host: 'localhost',
   port: 5432,
-  database: 'apirest_branas',
+  database: 'api_rest_branas',
 });
 
 module.exports = db;
